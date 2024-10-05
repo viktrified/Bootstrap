@@ -1,0 +1,15 @@
+.table-test {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-test, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
